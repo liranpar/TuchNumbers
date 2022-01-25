@@ -1,0 +1,22 @@
+<html>
+  <title>Tuch Numbers!</title>
+
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="init()">
+    <div class="time gametime">GAME TIME: 0</div>
+    <div class="time highscore">HIGHSCORE:</div>
+
+    <button class="new" onclick="newGame()">New Game</button>
+    <div class="lev easy">
+      <button class="levels curr" onclick="changeLevel(this)">easy</button>
+      <button class="levels" onclick="changeLevel(this)">medium</button>
+      <button class="levels" onclick="changeLevel(this)">hard</button>
+    </div>
+    <div class="back">
+      <table border="1" class="game"></table>
+    </div>
+    <script src="util.js"></script>
+  </body>
+</html>

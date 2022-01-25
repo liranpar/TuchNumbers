@@ -1,0 +1,114 @@
+.board td {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-color: aqua;
+}
+
+.levels {
+  width: 100px;
+  margin-top: 3px;
+}
+
+.new {
+  margin-top: 40px;
+}
+
+.curr {
+  background-color: yellow;
+}
+
+.correct {
+  background-color: rgb(0, 255, 55);
+  cursor: not-allowed;
+}
+
+.th {
+  height: 25px;
+  background-color: aqua;
+}
+
+.back {
+  margin: auto;
+  width: 320px;
+}
+
+.time {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  border-style: solid;
+  right: auto;
+  width: 230px;
+  background-color: rgb(250, 92, 124);
+  border-radius: 50px;
+}
+
+.lev {
+  width: 320px;
+  display: flex;
+}
+
+.cell {
+  background-color: aqua;
+  font-size: 33px;
+  box-sizing: border-box;
+  padding: 0%;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+}
+
+.game {
+  width: 320px;
+  height: 320px;
+  margin: auto;
+  border-style: solid;
+}
+
+.board td :hover {
+  background-color: rgb(66, 68, 212);
+}
+
+.board {
+  table-layout: fixed;
+  width: 100%;
+  background-color: aqua;
+}
+
+.occupied {
+  background-color: lightgray;
+}
+
+button {
+  left: 10px;
+
+  font-style: italic;
+  right: auto;
+  width: 230px;
+  height: 35px;
+  background-color: rgb(250, 92, 124);
+  border-radius: 50px;
+  border-color: rgb(0, 175, 0);
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+div {
+  margin: auto;
+  table-layout: fixed;
+  text-align: center;
+}
+
+body {
+  background-image: url("pic.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  margin: auto;
+}
